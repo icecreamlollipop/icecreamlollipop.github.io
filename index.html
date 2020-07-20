@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- web browser tab title & image -->
         <title>icecreamlollipop</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <!-- external CSS and jQuery -->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     </head>
     <body>
+        <!-- website header -->
         <div class="WritingOnImage">
             <img src="TopPic.jpg"></img>
             <div class="TheWriting">Nicole's Website</div>
@@ -12,15 +18,16 @@
         <br>
         <div class="topnav">
             <a class="active" href="#home">Home</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#" id="portfolio" onclick="changeContent()">Portfolio</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
         </div>
-        <br>
-        <div class="THEMAINPART">
-            <br>
-            <p>Pie is yummy! NOM NOM NOMMMMM</p>
-        </div>
 
+        <br>
+        <div class="mainContent">
+            <br>
+            <p id="mainContent">Hi! My name is Nicole.</p>
+        </div>
+        <script src="style.js"></script>
     </body>
 </html>
