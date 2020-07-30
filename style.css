@@ -1,8 +1,3 @@
-body {
-    background-image: url("Background.jpg");
-    background-attachment: fixed;
-}
-
 img{
     display: block;
     border-radius: 15px;
@@ -50,7 +45,7 @@ img{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    width: 20%;
+    width: 29%;
     font-family: Georgia, serif;
     float: left;
     color: #f2f2f2;

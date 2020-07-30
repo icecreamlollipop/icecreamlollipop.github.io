@@ -1,0 +1,52 @@
+body{
+    background-color: lightgrey;
+}
+
+.titleDiv{
+    border-style: solid;
+    border-radius: 25px;
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    display: inline-block;
+}
+.infoDiv{
+    border-style: solid;
+    border-radius: 25px;
+    background-color: white;
+    float: right;
+    width: 700px;
+    height: 200px;
+    position: fixed;
+    display: inline-block;
+}
+
+.formatDiv2{
+    width: 1350px;
+}
+
+.formatDiv{
+    height: 100%;
+    width: 10000px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.timelineDiv{
+    border-style: solid;
+    border-radius: 25px;
+    background-color: white;
+    width: 10000px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titleText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.authorText{
+    font-family: Arial, Helvetica, sans-serif;
+}
