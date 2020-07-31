@@ -44,7 +44,7 @@ body{
     background-color: white;
     width: 13900px;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -75,7 +75,7 @@ button{
     border-radius: 8px;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 10px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
@@ -104,6 +104,80 @@ button{
 }
 
 .phanerozoicButton{
-    background-color: #008000;
+    background-color: DarkGreen;
     width: 1623px;
+}
+
+
+.paleozoicButton{
+    background-color: OliveDrab;
+    width: 870px;
+}
+
+.mesozoicButton{
+    background-color: OliveDrab;
+    width: 558px;
+}
+
+.cenozoicButton{
+    background-color: OliveDrab;
+    width: 190px;
+}
+
+.cambrianButton{
+    background-color: DarkKhaki;
+    width: 160px;
+}
+
+.ordovicianButton{
+    background-color: DarkKhaki;
+    width: 120px;
+}
+
+.silurianButton{
+    background-color: DarkKhaki;
+    width: 75px;
+}
+
+.devonianButton{
+    background-color: DarkKhaki;
+    width: 180px;
+}
+
+.carboniferousButton{
+    background-color: DarkKhaki;
+    width: 180px;
+}
+
+.permianButton{
+    background-color: DarkKhaki;
+    width: 135px;
+}
+
+.triassicButton{
+    background-color: DarkKhaki;
+    width: 150px;
+}
+
+.jurassicButton{
+    background-color: DarkKhaki;
+    width: 168px;
+
+}
+
+.cretaceousButton{
+    background-color: DarkKhaki;
+    width: 237px;
+}
+
+.paleogeneButton{
+    background-color: DarkKhaki;
+}
+
+.neogeneButton{
+    background-color: DarkKhaki;
+}
+
+.quaternaryButton{
+    background-color: DarkKhaki;
 }
