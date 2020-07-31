@@ -167,17 +167,21 @@ button{
 
 .cretaceousButton{
     background-color: DarkKhaki;
-    width: 237px;
+    width: 235px;
 }
 
 .paleogeneButton{
     background-color: DarkKhaki;
+    width: 110px;
+
 }
 
 .neogeneButton{
     background-color: DarkKhaki;
+    width: 50px;
 }
 
 .quaternaryButton{
     background-color: DarkKhaki;
+    width: 5px;
 }
