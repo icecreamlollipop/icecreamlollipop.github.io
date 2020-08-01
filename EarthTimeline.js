@@ -133,6 +133,9 @@ function permianChange(){
 }
 
 function triassicChange(){
+  document.getElementById("imgA").src = "triA.jpg";
+  document.getElementById("imgB").src = "triB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "12800px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Triassic Period";
@@ -141,6 +144,9 @@ function triassicChange(){
 }
 
 function jurassicChange(){
+  document.getElementById("imgA").src = "jurA.jpg";
+  document.getElementById("imgB").src = "jurB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "13500px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Jurassic Period";
@@ -149,6 +155,9 @@ function jurassicChange(){
 }
 
 function cretaceousChange(){
+  document.getElementById("imgA").src = "creA.jpg";
+  document.getElementById("imgB").src = "creB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "13300px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Cretaceous Period";
@@ -157,6 +166,9 @@ function cretaceousChange(){
 }
 
 function paleogeneChange(){
+  document.getElementById("imgA").src = "palA.jpg";
+  document.getElementById("imgB").src = "palB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "13400px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Paleogene Period"
@@ -165,6 +177,9 @@ function paleogeneChange(){
 }
 
 function neogeneChange(){
+  document.getElementById("imgA").src = "neoA.jpg";
+  document.getElementById("imgB").src = "neoB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "13400px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Neogene Period"
@@ -173,6 +188,9 @@ function neogeneChange(){
 }
 
 function quaternaryChange(){
+  document.getElementById("imgA").src = "quaA.jpg";
+  document.getElementById("imgB").src = "quaB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "13400px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Quaternary Period"
