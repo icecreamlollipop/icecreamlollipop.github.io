@@ -27,12 +27,18 @@ body{
     padding-right: 10px;
 }
 
+img{
+  max-width:500px;
+  max-height:500px;
+  width: auto;
+  height: auto;
+}
+
 .formatDiv2{
     width: 1350px;
 }
 
 .formatDiv{
-    height: 100%;
     width: 10000px;
     padding-top: 50px;
     padding-left: 150px;

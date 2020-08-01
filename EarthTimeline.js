@@ -1,12 +1,18 @@
 function hadeanChange() {
+    document.getElementById("imgA").src = "hadeanA.jpg";
+    document.getElementById("imgB").src = "hadeanB.jpg";
+    document.getElementById("imgs").style.paddingLeft = "50px";
     var infoDivTitle = document.getElementById("infoDivTitle");
     var infoDivContent = document.getElementById("infoDivContent");
-    infoDivTitle.innerHTML = "Hadean Eon"
+    infoDivTitle.innerHTML = "Hadean Eon";
     infoDivTime.innerHTML = "(4500 to 4000 million years ago)";
     infoDivContent.innerHTML = "It's debateable whether life arose in the Hadean Eon or later. Chemical fingerprints in zircon rocks imply that there might have been life near the end of this eon - but we aren't sure of it. If life had existed during the Hadean, it would have been too small and too simple to leave behind fossils. The earliest life forms were probably based on RNA rather than DNA, and lived in undersea alkaline vents.";
 }
 
 function archeanChange(){
+    document.getElementById("imgA").src = "archaeanB.jpg";
+    document.getElementById("imgB").src = "archaeanA.jpg";
+    document.getElementById("imgs").style.paddingLeft = "2000px";
     var infoDivTitle = document.getElementById("infoDivTitle");
     var infoDivContent = document.getElementById("infoDivContent");
     infoDivTitle.innerHTML = "Archean Eon"
@@ -15,6 +21,9 @@ function archeanChange(){
 }
 
 function proterozoicChange(){
+  document.getElementById("imgA").src = "proterozoicA.jpg";
+  document.getElementById("imgB").src = "proterozoicB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "6500px";
     var infoDivTitle = document.getElementById("infoDivTitle");
     var infoDivContent = document.getElementById("infoDivContent");
     infoDivTitle.innerHTML = "Proterozoic Eon"
@@ -57,6 +66,9 @@ function cenozoicChange(){
 
 
 function cambrianChange(){
+  document.getElementById("imgA").src = "camA.jpg";
+  document.getElementById("imgB").src = "camB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "12300px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Cambrian Period"
@@ -65,6 +77,9 @@ function cambrianChange(){
 }
 
 function ordovicianChange(){
+  document.getElementById("imgA").src = "ordA.jpg";
+  document.getElementById("imgB").src = "ordB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "12300px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Ordovician Period"
@@ -73,6 +88,9 @@ function ordovicianChange(){
 }
 
 function silurianChange(){
+  document.getElementById("imgA").src = "silA.jpg";
+  document.getElementById("imgB").src = "silB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "12300px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Silurian Period"
@@ -81,6 +99,9 @@ function silurianChange(){
 }
 
 function devonianChange(){
+  document.getElementById("imgA").src = "devA.jpg";
+  document.getElementById("imgB").src = "devB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "12600px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Devonian Period"
@@ -90,6 +111,9 @@ function devonianChange(){
 
 
 function carboniferousChange(){
+  document.getElementById("imgA").src = "carA.jpg";
+  document.getElementById("imgB").src = "carB.png";
+  document.getElementById("imgs").style.paddingLeft = "12700px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Carboniferous Period"
@@ -98,6 +122,9 @@ function carboniferousChange(){
 }
 
 function permianChange(){
+  document.getElementById("imgA").src = "perA.jpg";
+  document.getElementById("imgB").src = "perB.jpg";
+  document.getElementById("imgs").style.paddingLeft = "12800px";
   var infoDivTitle = document.getElementById("infoDivTitle");
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Permian Period"
