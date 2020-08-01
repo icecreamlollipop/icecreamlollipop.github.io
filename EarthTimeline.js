@@ -134,7 +134,7 @@ function paleogeneChange(){
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Paleogene Period"
   infoDivTime.innerHTML = "(66 to 23 million years ago)";
-  infoDivContent.innerHTML = "Mammals and birds emerge as the dominant land animals. Mammals start to evolve - cats, camels, bats, elephants, deer, dogs, and more. Birds also begin to diversify, into eagles, hawks, and flightless birds like penguins. A mammal called the artiodactyl begins evolving into whales.";
+  infoDivContent.innerHTML = "The K-T extinction event allowed mammals to diversify and grow in size, until they eventually emerged as the dominant land animals. In the ocean, whales and dolphins appeared. On land, numerous mammals appeared - tigers, camels, elephants, deer, dogs, and more. There are even mammals who learned to fly: bats. Birds also continue to diversify; into eagles, hawks, and flightless birds like penguins. However, while mammals grew in size (elephants, blue whales, giant sloths, bears, and more), birds did not grow too large in size.";
 }
 
 function neogeneChange(){
@@ -142,7 +142,7 @@ function neogeneChange(){
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Neogene Period"
   infoDivTime.innerHTML = "(23 to 3 million years ago)";
-  infoDivContent.innerHTML = "Mammals continue to diversify. We start to see hyenas, giraffes, hippopotamus, zebras, mammoths, and more. Most importantly (for us, at least), this is where we can find Australopithecus - the ancestor of modern humans. This is when one of humanity's most unique aspects evolve: walking on two legs instead of four.";
+  infoDivContent.innerHTML = "Mammals continue to diversify. We start to see hyenas, giraffes, hippopotamus, zebras, mammoths, and more. Most importantly (for us, at least), this is where we can find Australopithecus - the ancestor of modern humans. This time period is when the chimpanzee-human last common ancestor (CHLCA) lived. This is when one of humanity's most unique aspects evolve: walking on two legs instead of four.";
 }
 
 function quaternaryChange(){
@@ -150,5 +150,5 @@ function quaternaryChange(){
   var infoDivContent = document.getElementById("infoDivContent");
   infoDivTitle.innerHTML = "Quaternary Period"
   infoDivTime.innerHTML = "(3 million years ago to present day)";
-  infoDivContent.innerHTML = "During this time period, our ancestors continued to evolve. Australopithecus diverged into Neanderthals, Homo Sapiens, Denisovans, and other human species. Eventually, Homo Sapiens become the dominant life form on Earth. Since then, humans have driven countless species to extinction, including the wooly mammoth.";
+  infoDivContent.innerHTML = "During this time period, our ancestors continued to evolve. Australopithecus diverged into Neanderthals, Homo Sapiens, Denisovans, and other human species. Eventually, Homo Sapiens become the dominant life form on Earth. Since then, humans have hunted countless species to extinction, including the wooly mammoth. Other animals have been altered through domestication; for instance, the auroch.";
 }
