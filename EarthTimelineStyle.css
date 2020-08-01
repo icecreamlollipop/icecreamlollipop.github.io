@@ -5,14 +5,15 @@ body{
 .titleDiv{
     border-style: solid;
     border-radius: 25px;
-    background-color: white;
+    background-color: lightgrey;
+    border-color: lightgrey;
     width: 600px;
     height: 150px;
     padding-top: 50px;
     display: inline-block;
 }
 .infoDiv{
-    border-style: solid;
+    border-style: none;
     border-radius: 25px;
     background-color: white;
     float: right;
@@ -41,7 +42,8 @@ body{
 .timelineDiv{
     border-style: solid;
     border-radius: 25px;
-    background-color: white;
+    border-color: lightgrey;
+    background-color: lightgrey;
     width: 13900px;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -84,7 +86,8 @@ button{
 }
 
 .invisibleButton{
-    background-color: white;
+    background-color: lightgrey;
+    color: lightgrey;
     width: 12190px;
 }
 
