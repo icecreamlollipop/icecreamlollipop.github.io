@@ -15,7 +15,7 @@ img{
 
 .TheWriting {
     position: absolute;
-    top: 30%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
@@ -31,6 +31,10 @@ img{
     background-color: white;
     text-align: center;
     font-family: Georgia, serif;
+}
+
+ul {
+    list-style-position: inside;
 }
 
 /* Add a black background color to the top navigation */
