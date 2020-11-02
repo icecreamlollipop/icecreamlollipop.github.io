@@ -77,19 +77,9 @@
 
 
 
-
-
-
-.mainContent{
-    border-radius: 15px;
-    width: 50%;
-    height: 2000px;
-    margin: 0 auto;
-    background-color: white;
-    text-align: center;
-    font-family: Georgia, serif;
-}
-
 ul {
-    list-style-position: inside;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 5em;
 }
