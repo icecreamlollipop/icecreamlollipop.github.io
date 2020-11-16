@@ -1,0 +1,46 @@
+.main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.title{
+    font-size: 80px;
+    color: DarkSlateGrey;
+}
+
+body{
+    background-color: Beige;
+    font-family: Arial;
+}
+
+.btn {
+    border: 2px solid DarkSlateGrey;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    color: DarkSlateGrey;
+}
+.btn:hover {background: White;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: DarkSlateGrey;
+    width:650px;
+}
+.grid-item {
+    background-color: Beige;
+    border: 10px solid DarkSlateGrey;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.directions{
+    font-size: 20px;
+    color: DarkSlateGrey;
+}
