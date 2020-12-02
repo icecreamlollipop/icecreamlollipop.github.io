@@ -28,12 +28,18 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    background-color: DarkSlateGrey;
-    width:650px;
+    background-color: LightGrey;
+    width:720px;
+    height: 720px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
 }
 .grid-item {
     background-color: Beige;
-    border: 10px solid DarkSlateGrey;
+    border: 10px solid LightGrey;
     font-size: 30px;
     text-align: center;
     height: 100px;
