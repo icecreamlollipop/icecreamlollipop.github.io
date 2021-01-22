@@ -2,7 +2,7 @@
 // third-party code: throughout this entire thing, w3schools was used, as well as jQuery
 
 const GRID_SIZE = 6;
-const WIN_NUMBER = 27;
+const WIN_NUMBER = 2187;
 const TRANSITION_TIME = 0.2;
 
 function randRange(up) {
